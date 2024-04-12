@@ -1,0 +1,39 @@
+.account-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96px;
+    height: 889px;
+    padding: 32px 36px 32px 36px; 
+    justify-content: space-between;
+
+    img {
+        cursor: pointer;
+    }
+
+    .account-sidebar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 52px;
+        height: 368px;
+        gap: 48px 0;
+    }
+
+    .account-sidebar-fuction-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 52px;
+        height: 276px;
+        gap: 32px;
+    }
+
+    .account-sidebar-footer {
+        display: flex;
+        flex-direction: column;
+        width: 24px;
+        height: 80px;
+        gap: 32px;
+    }
+}

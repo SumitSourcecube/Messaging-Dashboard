@@ -1,0 +1,213 @@
+.chatSpace-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 371px;
+    height: 913px;
+    padding: 20px 2px 20px 2px;
+    gap: 24px;
+    border-left: 1px solid #E3E8E7;
+
+    .chatSpace-header {
+        display: flex;
+        align-items: center;
+        width: 323px;
+        height: 32px;
+        justify-content: space-between;
+    }
+
+    #chatSpace-header-text {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.4px;
+    }
+
+    .chatSpace-navItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 323px;
+        height: 106px;
+        gap: 12px;
+    }
+
+    .chatSpace-search-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 323px;
+        height: 48px;
+        gap: 14px;
+        position: relative;
+    }
+
+    .chatSpace-search-bar > img {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    .Chatspace-input-tag {
+        width: 323px;
+        height: 20px;
+        padding: 12px 20px 12px 40px;
+        gap: 12px;
+        border-radius: 52px;
+        border: 1px solid #E3E8E7;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+    }
+    
+    .Chatspace-input-tag:focus {
+        outline: none;
+        border: 1px solid #329993;
+    }
+
+    .chatSapce-nav-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 323px;
+        height: 46px;
+        padding: 12px 20px 12px 20px;
+        border: none;
+        gap: 12px;
+        border-radius: 52px;
+        background: #329993;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+        color: #ffff;
+        cursor: pointer;
+    }
+
+    .chatSapce-nav-button:hover{
+        background: #005c57;
+        color: #ffff;
+    }
+
+    .chatSapce-nav-button:focus{
+        outline: none;
+        background: #005c57;
+        color: #ffff;
+    }
+
+    .chatSpace-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 734px;
+        overflow-y: auto;
+    }
+
+    .chatSpace-chat-active {
+        display: flex;
+        width: 371px;
+        height: 109px;
+        align-items: center;
+        background: #E8F7F7;
+        gap: 0 18px;
+    }
+
+    .chatSpace-chat-1 {
+        display: flex;
+        width: 371px;
+        height: 109px;
+        align-items: center;
+        gap: 0 18px;
+    }
+
+    .chatspace-befor-indicator {
+        width: 6px;
+        height: 109px;
+    }
+
+    .chatspace-befor-indicator-active {
+        width: 6px;
+        height: 109px;
+        background: #329993;
+    }
+    .chat-account-name-status {
+        width: 323px;
+        height: 61px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .chat-name-detail {
+        width: 264px;
+        height: 61px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .chat-account-name-text {
+        width: 196px;
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #chatSpace-account-name {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+    }
+
+    #chatSpace-account-message {
+        width: 196px;
+        height: 37px;
+        overflow: hidden;
+        text-overflow: ellipsis !important;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #465352;
+    }
+
+    .chatSpace-status {
+        width: 24px;
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    #chatSpace-time {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.9px;
+        color: #758A89;
+    }
+
+    #chatSpace-message-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 20px;
+        background-color: #DD0000;
+        color: #ffff;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px; 
+    background-color: white;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #B5B5B5; 
+    border-radius: 8px;
+}

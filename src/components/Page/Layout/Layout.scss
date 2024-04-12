@@ -1,0 +1,19 @@
+.layout-display-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    position: relative;
+}
+
+.account-messageDisplay-layout {
+    flex-grow: 1;
+    width: calc(100vw - 911px );
+}
+
+@media screen and (max-width: 1430px) {
+    .account-messageDisplay-layout {
+        flex-grow: 1;
+        width: 508px;
+    }
+    
+}

@@ -1,0 +1,25 @@
+$profile-variants: (
+  'profile-sm-1': 36px,
+  'profile-sm': 44px,
+  'profile-md': 52px,
+  'profile-md-l': 58px,
+  'profile-lg': 136px
+);
+
+@each $class-name, $size in $profile-variants {
+  .#{$class-name} {
+    border-radius: 50%;
+    width: $size;
+    height: $size;
+    
+    &.profile-lg {
+      border: 6px solid #329993;
+    }
+
+    > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+}

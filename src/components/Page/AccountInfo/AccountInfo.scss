@@ -1,0 +1,201 @@
+.account-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 372px;
+    gap: 22px 0;
+    height: 879px;
+    padding: 50px 24px 24px 5px;
+    border-left: 1px solid #E3E8E7;
+
+    #account-info-header {
+        position: fixed;
+        top: 24px;
+        height: 52px;
+        width: 52px;
+        border-radius: 40px;
+        align-self: flex-end;
+        border: 1px solid #E3E8E7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    #account-info-body-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 323px;
+        height: 824px;
+        gap: 26px;
+    }
+
+    .account-info-body {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 323px;
+        height: 824px;
+        gap: 26px;
+    }
+
+    .profile-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 162px;
+        height: 215px;
+        gap: 10px;
+    }
+
+    .account-profile-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 162px;
+        height: 65px;
+        gap: 4px;
+    }
+
+    #account-name {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 43.2px;
+    }
+
+    #account-user-name {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #465352;
+    }
+
+    .profile-detail-line {
+        width: 323px;
+        border: 1px solid #E3E8E7;
+    }
+
+    .account-detail-notification {
+        display: flex;
+        align-items: center;
+        width: 323px;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .account-info-file-detail {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .file-info-header, .account-info-header {
+        width: 322.99px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #file-header-title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.6px;
+    }
+    #file-header-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        color: #758A89;
+    }
+
+    .file-name-detail {
+        width: 323px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .file-name-detail-info{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 0 6px;
+        cursor: pointer;
+    }
+
+    .option-div {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .file-detail-name {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        color: #5D6F6D;
+
+    }
+    #show-more-option {
+        align-self: flex-start;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+        color: #329993;
+        cursor: pointer;
+    }
+
+    .account-info-images {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        gap: 20px;
+    }
+
+    .account-infor-image-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
+        height: auto;
+        gap: 12px;
+    }
+
+    .account-infor-image {
+        cursor: pointer;
+    }
+
+    .block-user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 323px;
+        height: auto;
+    }
+
+    .block-user-button {
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 323px;
+        height: 42px;
+        padding: 12px 20px 12px 20px;
+        gap: 12px;
+        border-radius: 52px;
+        border: 1px;
+        border: 1px solid #DD0000;
+        background: white;
+        cursor: pointer;
+    }
+}
